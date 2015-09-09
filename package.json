@@ -1,0 +1,32 @@
+{
+  "name": "exchange-api",
+  "version": "0.0.0",
+  "author": "Joseph Hui, Cathy Lee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resource-exchange/exchange-api.git"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "bash-color": "0.0.3",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "mersenne": "0.0.3",
+    "mysql": "^2.9.0",
+    "node-uuid": "^1.4.3",
+    "request": "^2.61.0",
+    "requirefrom": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0",
+    "chai": "^3.2.0",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha test --timeout 5000 -b"
+  }
+}
